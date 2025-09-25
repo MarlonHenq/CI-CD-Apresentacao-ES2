@@ -24,7 +24,7 @@ def test_user_creation():
     db.refresh(user)
     
     assert user.id is not None
-    assert user.name == "Maria Santos"
+    assert user.name == "Maria"
     db.close()
 
 def test_user_query():
