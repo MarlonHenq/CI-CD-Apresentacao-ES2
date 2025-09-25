@@ -23,7 +23,7 @@ jobs:
 
       - name: Rodar testes
         run: |
-          pytest -v
+          pytest test.pý
 
   deploy:
     needs: test
